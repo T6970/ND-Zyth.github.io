@@ -413,6 +413,7 @@
                     // Add click events
                     cell.addEventListener('click', () => {
                         revealCell(row, col);
+                        statusElement.textcontent = "";
                     });
                     
                     cell.addEventListener('contextmenu', (e) => {
